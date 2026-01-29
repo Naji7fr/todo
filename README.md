@@ -45,7 +45,8 @@ Open daarna **http://localhost:8000**. De startpagina redirect naar het takenove
 | GET | `/tasks/{id}/edit` | Formulier taak bewerken |
 | PUT | `/tasks/{id}` | Taak bijwerken |
 | DELETE | `/tasks/{id}` | Taak verwijderen |
-| PATCH | `/tasks/{id}/toggle` | Mark as done / openen |
+| PATCH | `/tasks/{id}/status` | Status wijzigen (todo / in progress / done) |
+| POST | `/tasks/clear-completed` | Afgeronde taken wissen |
 
 ## Oplevering Week 1
 
