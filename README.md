@@ -59,4 +59,13 @@ Open daarna **http://localhost:8000**. De startpagina redirect naar het takenove
 
 ---
 
+## Tech stack
+
+- Laravel 12, PHP 8.4+
+- Laravel Breeze (Blade)
+- Tailwind CSS, Vite
+- SQLite / MySQL
+
+---
+
 *Laravel Todo App Traject — 8 weken — MBO Software Developer niveau 4*
