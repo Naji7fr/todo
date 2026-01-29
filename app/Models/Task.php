@@ -5,6 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * Task model: title, description, status (todo / in_progress / done), owned by User.
+ */
 class Task extends Model
 {
     protected $fillable = ['title', 'description', 'status', 'user_id'];
