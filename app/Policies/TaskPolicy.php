@@ -6,6 +6,9 @@ use App\Models\Task;
 use App\Models\User;
 use Illuminate\Auth\Access\Response;
 
+/**
+ * Authorization: users may only view/update/delete their own tasks.
+ */
 class TaskPolicy
 {
     /**
