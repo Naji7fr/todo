@@ -4,10 +4,11 @@ Mini Todo-app voor het 8-weekse Laravel-ontwikkeltraject (MBO Software Developer
 
 ## Wat zit erin (Week 1)
 
-- **Model:** `Task` met `title`, `description`, `is_done`
+- **Model:** `Task` met `title`, `description`, `status` (todo / in progress / done)
 - **CRUD:** aanmaken, overzicht, bewerken, verwijderen
-- **Validatie** in de controller (title verplicht, description optioneel)
-- **Mark as done:** toggle-knop op de lijst en op de detailpagina
+- **Validatie** via Form Requests (TaskStoreRequest, TaskUpdateRequest)
+- **Status:** dropdown om taak te zetten op Todo, In progress of Afgerond
+- **Auth:** Laravel Breeze (registratie, login, profiel, avatar)
 
 ## Vereisten
 
