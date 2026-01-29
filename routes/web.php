@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TaskController;
 use Illuminate\Support\Facades\Route;
 
+// Home: redirect to tasks when logged in, else to login
 Route::get('/', fn () => auth()->check() ? redirect()->route('tasks.index') : redirect()->route('login'));
 
 Route::middleware('auth')->group(function () {
