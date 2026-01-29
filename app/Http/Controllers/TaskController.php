@@ -10,6 +10,9 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
+/**
+ * CRUD + filter/sort/status for authenticated user's tasks.
+ */
 class TaskController extends Controller
 {
     public function index(Request $request): View
